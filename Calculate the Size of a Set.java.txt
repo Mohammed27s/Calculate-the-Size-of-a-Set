@@ -1,0 +1,27 @@
+
+//Calculate the Size of a Set
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class sizeOfset {
+
+
+    public static void main(String[] args){
+
+
+        Set<Integer> sizeSet = new HashSet<>();
+
+        sizeSet.add(1);
+        sizeSet.add(2);
+        sizeSet.add(3);
+        sizeSet.add(4);
+        sizeSet.add(5);
+
+        System.out.println("The size of the set : "+sizeSet.size());
+
+
+
+
+    }
+}
